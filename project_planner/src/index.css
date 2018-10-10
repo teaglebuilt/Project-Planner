@@ -1,5 +1,39 @@
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: url("") no-repeat;
+  background-size: 100%;
+  background-color: #aac4e7;
+  min-height: 100%;
+}
+
+form {
+  padding: 20px;
+  margin-top: 60px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+form button, form h5 {
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #2b6cc4;
+  box-shadow: none;
+}
+
+.project-summary {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
