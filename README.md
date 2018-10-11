@@ -17,7 +17,6 @@ The intent was to become familiar with using Redux for React state management, a
 - redux-thunk" 2.3.0
 
 
-![alt text](https://www.essitco.com/wp-content/uploads/2017/05/react.png "React")
+![alt text](https://sg.fiverrcdn.com/photos/103023642/original/6d7e0809333009b3d1f09cd0cb137033deabf0a1.jpg?1507812524 "React")
 
-![alt text](https://cdn.zapier.com/storage/blog/4ec8fc7dc3a75758a3913bab9e5a4fd8_2.500x278.png "React")
 
