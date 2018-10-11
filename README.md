@@ -19,4 +19,6 @@ The intent was to become familiar with using Redux for React state management, a
 
 ![alt text](https://sg.fiverrcdn.com/photos/103023642/original/6d7e0809333009b3d1f09cd0cb137033deabf0a1.jpg?1507812524 "React")
 
+![alt text](https://9to5google.com/wp-content/uploads/sites/4/2016/05/firebase-e1534378181405.png?w=1600 "React")
+
 
