@@ -9,16 +9,19 @@ import rootReducer from './store/reducers/rootReducer';
 import thunk from 'redux-thunk';
 import { reduxFirestore, getFirestore } from 'redux-firestore';
 import { reactReduxFirebase, getFirebase } from 'react-redux-firebase';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import config from './config/firebase';
 
 
-const store = createStore(rootReducer,
+const store = createStore(rootReducer, composeWithDevTools(
     compose(
     applyMiddleware(thunk.withExtraArgument({getFirebase, getFirestore})),
     reduxFirestore(config),
     reactReduxFirebase(config)
-  )
+  ))
 );
+
+
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 registerServiceWorker();
