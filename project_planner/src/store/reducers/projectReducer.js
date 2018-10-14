@@ -1,6 +1,6 @@
 const initState = {
     projects: [
-        {id: 1, title: 'Trainer-App', content: 'My first front-end project, using React.js and Firebase.'}
+
     ]
 }
 
