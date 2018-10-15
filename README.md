@@ -4,6 +4,12 @@ This project is a simple CRUD application for project planning.
 
 The intent was to become familiar with using Redux for React state management, and using Firebase's new Cloud DB storage.
 
++ React.JS for components
++ Redux for state management
++ Firestore Cloud database storage in sync with Firebase.
++ Materialize for design
+
+
 # Dependencies
 - firebase 5.5.3
 - react 16.5.2

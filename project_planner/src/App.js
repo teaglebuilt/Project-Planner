@@ -6,7 +6,10 @@ import ProjectDetails from './components/projects/ProjectDetails';
 import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import CreateProject from './components/projects/CreateProject';
+import AccountDetails from './components/dashboard/UserAccount';
+import homePage from './components/layout/landing';
 import { getFirebase } from 'react-redux-firebase';
+
 
 class App extends Component {
 
@@ -16,11 +19,13 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Dashboard} />
+            <Route exact path="/" component={homePage} />
+            <Route path="/dashboard" component={Dashboard} />
             <Route path="/project/:id" component={ProjectDetails} />
             <Route path="/signin" component={SignIn} />
             <Route path="/signup" component={SignUp} />
             <Route path="/create" component={CreateProject} />
+            <Route path="/account" component={AccountDetails} />
           </Switch>
         </div>
       </BrowserRouter>
