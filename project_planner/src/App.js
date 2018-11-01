@@ -8,7 +8,6 @@ import SignUp from "./components/auth/SignUp";
 import CreateProject from "./components/projects/CreateProject";
 import AccountDetails from "./components/dashboard/UserAccount";
 import homePage from "./components/layout/landing";
-import { getFirebase } from "react-redux-firebase";
 
 class App extends Component {
   render() {

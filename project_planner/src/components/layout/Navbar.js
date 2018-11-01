@@ -15,10 +15,10 @@ const Navbar = props => {
   return (
     <nav className="nav-wrapper indigo darken-3">
       <div className="container">
-        <Link to="/" className="brand-logo">
+        <Link to="/" className="brand-logo left">
           Project-Planner
         </Link>
-        {links}
+        <div className="right">{links}</div>
       </div>
     </nav>
   );
